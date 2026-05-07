@@ -1,0 +1,6 @@
+services:
+  danfse:
+    build: .
+    volumes:
+      - ./output:/app/output
+      - ./samples:/app/samples
