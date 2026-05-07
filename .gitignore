@@ -217,6 +217,10 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# PASTAS DO PROJETO
-OUTPUT/
-SAMPLES/
+# Pastas do projeto - ignora conteudo mas mantém a pasta
+output/*
+samples/*
+
+# Mantém o .gitkeep
+!output/.gitkeep
+!samples/.gitkeep
